@@ -1,44 +1,43 @@
 {
-    "name": "laradic/support",
-    "description": "Laravel support package",
-    "homepage": "https://github.com/laradic/support",
-    "keywords": [
-        "loop",
-        "extensions",
-        "blade",
-        "laravel"
-    ],
-
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Robin Radic",
-            "email": "robin@radic.nl",
-            "role": "Package Author/Developer"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
-        "illuminate/console": "^5.0|^6.0|^7.0|^8.0",
-        "illuminate/filesystem": "^5.0|^6.0|^7.0|^8.0",
-        "radic/tmp-underscore-php": "^1.3.2|^2.0|^3.0",
-        "webmozart/path-util": "^1.0|^2.0|^3.0",
-        "danielstjules/stringy": "^1.9.0|^2.0|^3.0",
-        "symfony/filesystem": "^2.7|^3.0|^4.0|^5.0"
-    },
-    "require-dev": {
-        "laradic/dev": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "Laradic\\Support\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Laradic\\Tests\\Support\\": "tests"
-        }
+  "name": "laradic/support",
+  "description": "Laravel support package",
+  "homepage": "https://github.com/laradic/support",
+  "keywords": [
+    "loop",
+    "extensions",
+    "blade",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robin Radic",
+      "email": "robin@radic.nl",
+      "role": "Package Author/Developer"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+    "illuminate/console": "^5.0|^6.0|^7.0|^8.0",
+    "illuminate/filesystem": "^5.0|^6.0|^7.0|^8.0",
+    "radic/tmp-underscore-php": "^1.3.2|^2.0|^3.0",
+    "webmozart/path-util": "^1.0|^2.0|^3.0",
+    "danielstjules/stringy": "^1.9.0|^2.0|^3.0",
+    "symfony/filesystem": "^2.7|^3.0|^4.0|^5.0"
+  },
+  "require-dev": {
+    "laradic/dev": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Laradic\\Support\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Laradic\\Tests\\Support\\": "tests"
+    }
+  }
 }
