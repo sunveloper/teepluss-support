@@ -69,7 +69,7 @@ trait ValidableServiceTrait
 
             else
             {
-                throw new Exception("{$validator} is not an instance of Laradic\\Support\\Contracts\\Validable");
+                throw new Exception("{$validator} is not an instance of Sunveloper\\TeeplussSupport\\Contracts\\Validable");
             }
         }
 
