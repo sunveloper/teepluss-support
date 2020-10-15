@@ -7,7 +7,7 @@
  */
 namespace Laradic\Tests\Support\Helpers;
 
-use Laradic\Support\String;
+use Sunveloper\TeeplussSupport\String;
 
 /**
  * Interface StringyHelperTrait

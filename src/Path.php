@@ -1,4 +1,4 @@
-<?php namespace Laradic\Support;
+<?php namespace Sunveloper\TeeplussSupport;
 
 /**
  * Part of the Radic packges.
@@ -19,7 +19,7 @@ use Webmozart\PathUtil\Path as BasePath;
  * with both forward and backward slashes. All methods return normalized parts
  * containing only forward slashes and no excess "." and ".." segments.
  *
- * @package        Laradic\Support
+ * @package        Sunveloper\TeeplussSupport
  * @version        1.0.0
  * @author         Robin Radic
  * @license        MIT License

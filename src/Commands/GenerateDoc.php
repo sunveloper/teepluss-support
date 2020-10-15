@@ -1,6 +1,6 @@
 <?php
 
-namespace Laradic\Support\Commands;
+namespace Sunveloper\TeeplussSupport\Commands;
 
 use Illuminate\Console\Command;
 use phpDocumentor\Reflection\DocBlock\Tag\ParamTag;
@@ -119,7 +119,7 @@ class GenerateDoc extends Command
     public function genStringDoc()
     {
         $this->methodDoc = [ ];
-        $classes         = [ 'Underscore\Methods\StringMethods', 'Laradic\Support\Stringy\Stringy' ];
+        $classes         = [ 'Underscore\Methods\StringMethods', 'Sunveloper\TeeplussSupport\Stringy\Stringy' ];
 
         foreach ( $classes as $className )
         {
@@ -134,7 +134,7 @@ class GenerateDoc extends Command
                 }
 
                 $params = [ ];
-                if ( $className === 'Laradic\Support\Stringy\Stringy' )
+                if ( $className === 'Sunveloper\TeeplussSupport\Stringy\Stringy' )
                 {
                     $params[] = 'string $subject';
                 }
@@ -205,7 +205,7 @@ class GenerateDoc extends Command
             /** @var ReturnTag $tag */
             $tag     = $phpdoc->getTagsByName('return')[ 0 ];
             $returns = $tag->getType();
-            if ( in_array($returns, [ '\Stringy', '\Laradic\Support\Stringy\Stringy' ], true) )
+            if ( in_array($returns, [ '\Stringy', '\Sunveloper\TeeplussSupport\Stringy\Stringy' ], true) )
             {
                 $returns = 'string';
             }

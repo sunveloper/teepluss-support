@@ -8,20 +8,20 @@
  * @copyright   2011-2015, Robin Radic
  * @link        http://radic.mit-license.org
  */
-namespace Laradic\Support\Traits;
+namespace Sunveloper\TeeplussSupport\Traits;
 
 use Exception;
-use Laradic\Support\Contracts\Validable;
+use Sunveloper\TeeplussSupport\Contracts\Validable;
 
 /**
  * Trait ValidableServiceTrait
  *
- * @package     Laradic\Support\Traits
+ * @package     Sunveloper\TeeplussSupport\Traits
  * @property \Illuminate\Support\MessageBag $errors
  */
 trait ValidableServiceTrait
 {
-    /** @var \Laradic\Support\Contracts\Validable[] */
+    /** @var \Sunveloper\TeeplussSupport\Contracts\Validable[] */
     protected $validators;
 
     /**

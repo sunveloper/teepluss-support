@@ -5,12 +5,12 @@
  * MIT License and copyright information bundled with this package
  * in the LICENSE file or visit http://radic.mit-license.com
  */
-namespace Laradic\Support\Traits;
+namespace Sunveloper\TeeplussSupport\Traits;
 
 /**
  * This is the Singleton class.
  *
- * @package        Laradic\Support
+ * @package        Sunveloper\TeeplussSupport
  * @version        1.0.0
  * @author         Robin Radic
  * @license        MIT License

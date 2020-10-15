@@ -1,4 +1,4 @@
-<?php namespace Laradic\Support\Traits;
+<?php namespace Sunveloper\TeeplussSupport\Traits;
 
 use Illuminate\Contracts\Events\Dispatcher;
 

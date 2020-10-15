@@ -1,4 +1,4 @@
-<?php namespace Laradic\Support\Traits;
+<?php namespace Sunveloper\TeeplussSupport\Traits;
 
 /**
  * Part of the Radic packges.
@@ -27,12 +27,12 @@ use Symfony\Component\Finder\Finder;
 /**
  * BindLaravelCoreTrait
  *
- * @package Laradic\Support\Traits${NAME}
+ * @package Sunveloper\TeeplussSupport\Traits${NAME}
  */
 trait BindIlluminate
 {
     protected $illuminateClasses = [
-        'files' => 'Laradic\Support\Filesystem',
+        'files' => 'Sunveloper\TeeplussSupport\Filesystem',
         'url'   => 'Illuminate\Routing\UrlGenerator',
         'events' => 'Illuminate\Events\Dispatcher'
     ];

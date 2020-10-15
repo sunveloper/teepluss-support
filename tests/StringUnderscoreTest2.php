@@ -10,7 +10,7 @@
  */
 namespace Laradic\Tests\Support;
 
-use Laradic\Support\String;
+use Sunveloper\TeeplussSupport\String;
 
 /**
  * Class StringUnderscoreTest

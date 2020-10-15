@@ -2,11 +2,11 @@
  /**
  * Part of the Radic packages.
  */
-namespace Laradic\Support\Exceptions;
+namespace Sunveloper\TeeplussSupport\Exceptions;
 /**
  * Class InvalidStyleException
  *
- * @package     Laradic\Support\Exceptions
+ * @package     Sunveloper\TeeplussSupport\Exceptions
  * @author      Robin Radic
  * @license     MIT
  * @copyright   2011-2015, Robin Radic

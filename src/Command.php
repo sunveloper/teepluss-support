@@ -1,5 +1,5 @@
 <?php
-namespace Laradic\Support;
+namespace Sunveloper\TeeplussSupport;
 
 /**
  * Part of the Robin Radic's PHP packages.

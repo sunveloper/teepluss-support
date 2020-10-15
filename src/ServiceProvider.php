@@ -5,7 +5,7 @@
  * MIT License and copyright information bundled with this package
  * in the LICENSE file or visit http://radic.mit-license.com
  */
-namespace Laradic\Support;
+namespace Sunveloper\TeeplussSupport;
 
 use App;
 use Illuminate\Foundation\AliasLoader;
@@ -14,7 +14,7 @@ use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 /**
  * Extends the Laravel service provider with extra functionality
  *
- * @package        Laradic\Support
+ * @package        Sunveloper\TeeplussSupport
  * @version        1.0.0
  * @author         Robin Radic
  * @license        MIT License

@@ -5,9 +5,9 @@
  * MIT License and copyright information bundled with this package
  * in the LICENSE file or visit http://radic.mit-license.com
  */
-namespace Laradic\Support;
+namespace Sunveloper\TeeplussSupport;
 
-use Laradic\Support\Stringy\Stringy;
+use Sunveloper\TeeplussSupport\Stringy\Stringy;
 
 /**
  * String helper functionality.
@@ -16,7 +16,7 @@ use Laradic\Support\Stringy\Stringy;
  * - Underscore\Types\String
  * - Stringy\String.
  *
- * @package     Laradic\Support
+ * @package     Sunveloper\TeeplussSupport
  * @author      Robin Radic
  * @license     MIT
  * @copyright   2011-2015, Robin Radic
@@ -158,7 +158,7 @@ class String
      * Create a new Stringy string instance
      *
      * @param $string
-     * @return \Laradic\Support\Stringy\Stringy
+     * @return \Sunveloper\TeeplussSupport\Stringy\Stringy
      */
     public static function create($string)
     {

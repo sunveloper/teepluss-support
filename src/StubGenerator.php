@@ -5,14 +5,14 @@
  * MIT License and copyright information bundled with this package
  * in the LICENSE file or visit http://radic.mit-license.com
  */
-namespace Laradic\Support;
+namespace Sunveloper\TeeplussSupport;
 
 use Illuminate\View\Compilers\BladeCompiler;
 
 /**
  * This is the TemplateParser class.
  *
- * @package        Laradic\Support
+ * @package        Sunveloper\TeeplussSupport
  * @version        1.0.0
  * @author         Robin Radic
  * @license        MIT License

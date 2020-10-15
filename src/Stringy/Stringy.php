@@ -5,14 +5,14 @@
  * MIT License and copyright information bundled with this package
  * in the LICENSE file or visit http://radic.mit-license.com
  */
-namespace Laradic\Support\Stringy;
+namespace Sunveloper\TeeplussSupport\Stringy;
 
 use Stringy\Stringy as BaseStringy;
 
 /**
  * This is the Stringy.
  *
- * @package        Laradic\Support
+ * @package        Sunveloper\TeeplussSupport
  * @version        1.0.0
  * @author         Robin Radic
  * @license        MIT License
@@ -25,7 +25,7 @@ class Stringy extends BaseStringy
     /**
      * Transforms "vendor-name/package-name" into "VendorName\PackageName"
      *
-     * @return \Laradic\Support\Stringy\Stringy
+     * @return \Sunveloper\TeeplussSupport\Stringy\Stringy
      */
     public function namespacedStudly()
     {

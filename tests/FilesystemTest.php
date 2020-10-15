@@ -24,7 +24,7 @@ class FilesystemTest extends SupportTestCase
 
     public function testFilesystemInjectable()
     {
-        $this->assertIsInjectable('Laradic\Support\Filesystem');
+        $this->assertIsInjectable('Sunveloper\TeeplussSupport\Filesystem');
     }
 
 

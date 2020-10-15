@@ -24,6 +24,6 @@ class SupportServiceProviderTest extends SupportTestCase
 
     protected function getServiceProviderClass($app)
     {
-        return 'Laradic\Support\SupportServiceProvider';
+        return 'Sunveloper\TeeplussSupport\SupportServiceProvider';
     }
 }

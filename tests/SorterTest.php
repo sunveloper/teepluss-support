@@ -33,7 +33,7 @@ class SorterTest extends SupportTestCase
     }
     public function testSorter()
     {
-        $a = new \Laradic\Support\Sorter;
+        $a = new \Sunveloper\TeeplussSupport\Sorter;
         foreach($this->getSortData() as $item => $deps)
         {
             $a->addItem($item, $deps);

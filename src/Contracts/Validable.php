@@ -2,12 +2,12 @@
 /**
  * Part of the Radic packages.
  */
-namespace Laradic\Support\Contracts;
+namespace Sunveloper\TeeplussSupport\Contracts;
 
 /**
  * Dependable contract
  *
- * @package     Laradic\Support\Contracts
+ * @package     Sunveloper\TeeplussSupport\Contracts
  * @author      Robin Radic
  * @license     MIT
  * @copyright   2011-2015, Robin Radic

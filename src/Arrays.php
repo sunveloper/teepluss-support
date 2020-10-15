@@ -2,7 +2,7 @@
 /**
  * Arrays
  */
-namespace Laradic\Support;
+namespace Sunveloper\TeeplussSupport;
 
 /**
  * Array helper functionality.
@@ -11,7 +11,7 @@ namespace Laradic\Support;
  * - Underscore\Types\Arrays
  *
  * {@inheritdoc}
- * @package        Laradic\Support
+ * @package        Sunveloper\TeeplussSupport
  * @author         Robin Radic
  * @license        MIT
  * @copyright  (c) 2011-2015, Robin Radic

@@ -10,7 +10,7 @@
  */
 namespace Laradic\Tests\Support;
 
-use Laradic\Support\String as S;
+use Sunveloper\TeeplussSupport\String as S;
 use Laradic\Tests\Support\Helpers\StringyHelperTrait;
 
 /**
